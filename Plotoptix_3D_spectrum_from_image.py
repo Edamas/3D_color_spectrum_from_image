@@ -2,7 +2,7 @@ import numpy as np
 from plotoptix import TkOptiX
 from PIL import Image
 
-im = Image.open("color spectrum.png")
+im = Image.open("samples/color spectrum.png")
 px = im.load()
 
 colors = []
