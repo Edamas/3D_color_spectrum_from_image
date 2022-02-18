@@ -4,7 +4,7 @@ from PIL import Image
 
 size_factor = 100
 
-image = 'f08924dda7324d118f8e824592dee046.jpg'
+image = 'samples/f08924dda7324d118f8e824592dee046.jpg'
 
 im = Image.open(image)
 px = im.load()
